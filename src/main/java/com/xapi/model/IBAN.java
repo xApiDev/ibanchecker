@@ -9,6 +9,7 @@ public class IBAN {
     private SepaData sepa_data;
 
     public IBAN() {
+
     }
 
     public IBAN(BankData bank_data, ArrayList errors, ArrayList<Validation> validations, SepaData sepa_data) {
